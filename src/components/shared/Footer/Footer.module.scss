@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  .info {
+    color: #283046;
+    font-size: 14px;
+
+    .author {
+      margin-right: 8px;
+    }
+
+    .source {
+      text-decoration: none;
+      color: #283046;
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+[
+    {
+      "gameName": "Counter-Strike: Global Offensive",
+      "gameImg": "https://www.bilgiyazar.net/wp-content/uploads/2021/02/CS-GO-fps-gosterme.jpg",
+      "initialReleaseDate": 15082001,
+      "gamerCount": 15565164,
+      "id": "1"
+    },
+    {
+      "gameName": "Age of Empires II",
+      "gameImg": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Age_of_Empires_II_-_The_Age_of_Kings_Coverart.png/220px-Age_of_Empires_II_-_The_Age_of_Kings_Coverart.png",
+      "initialReleaseDate": 18041999,
+      "gamerCount": 556140,
+      "id": "2"
+    },
+    {
+      "gameName": "Company of Heroes",
+      "gameImg": "https://www.technopat.net/wp-content/uploads/2021/07/yeni-company-of-heroes-bugun-duyurulabilir-technopat-640x402.jpg",
+      "initialReleaseDate": 25072011,
+      "gamerCount": 848286,
+      "id": "3"
+    },
+    {
+      "gameName": "Assassin's Creed Odyssey",
+      "gameImg": "https://fanatical.imgix.net/product/original/843e0ee2-eac9-4d99-881d-717cf9e18093.jpeg?auto=compress,format&w=450&fit=crop&h=253",
+      "initialReleaseDate": 15082001,
+      "gamerCount": 147863,
+      "id": "4"
+    }
+  ]

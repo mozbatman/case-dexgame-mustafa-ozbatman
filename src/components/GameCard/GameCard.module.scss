@@ -1,0 +1,33 @@
+$card-color: #283046;
+
+.gameCard {
+    background-color: $card-color;
+    color: white;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    overflow: hidden;
+
+    .gameCardImage {
+        width: 100%;
+
+        > img {
+            width: 100%;
+            object-fit: cover;
+            height: 400px;
+        }
+    }
+
+    .gameCardBody {
+        margin: 30px 10px;
+        font-weight: bold;
+    }
+
+    .gameCardFooter {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        color: grey;
+        margin-bottom: 20px;
+    }
+}

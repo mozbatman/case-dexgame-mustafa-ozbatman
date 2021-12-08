@@ -1,0 +1,29 @@
+.mainPage {
+    width: 100%;
+    margin: 20px auto;
+
+    .gamesContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+        overflow: hidden;
+    
+        @media only screen and (max-width: 896px) {
+            & {
+                grid-template-columns: 1fr 1fr;
+            }
+          }
+    
+          @media only screen and (max-width: 600px) {
+            & {
+                grid-template-columns: 1fr;
+            }
+          }
+    }
+
+    .gamersContainer {
+        width: 100%;
+        overflow-y: auto;
+    }
+}

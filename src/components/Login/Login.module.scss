@@ -1,0 +1,61 @@
+$button-color: #283046;
+
+.loginContainer {
+    width: 450px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+
+.formControl {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2 {
+        color: $button-color;
+        font-size: 2rem;
+    }
+    
+    .loginText {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-weight: 600;
+        font-size: 1.2rem;
+        color: $button-color;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 6px;
+    }
+
+    .field {
+        height: 40px;
+        border: 1px solid grey;
+        border-radius: 6px;
+        margin-bottom: 12px;
+        padding: 0 10px;
+        
+    }
+
+    .error {
+        color: red;
+        font-size: 0.8rem;
+    }
+
+    .loginButton {
+        height: 60px;
+        font-size: 1.3rem;
+        font-weight: 600;
+        background-color: $button-color;
+        color: white;
+        border-radius: 6px;
+        border: none;
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,29 @@
+.dataTableContainer {
+    width: 100%;
+    min-width: 490px;
+    margin-top: 20px;
+}
+
+.dataTable {
+    width: 100%;
+    color: white;
+    border: 1px solid #3B4253;
+    border-collapse: collapse;
+    background-color: #283046;
+
+    .dataTableTb {
+        border: 1px solid #3B4253;
+        cursor: pointer;
+    }
+
+    .dataTableTh {
+        border: 1px solid #3B4253;
+        background-color: #343D55;
+    }
+
+    tr, th, td {
+        border: 1px solid #3B4253;
+        padding: 10px;
+        text-align: center;
+    }
+}
